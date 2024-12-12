@@ -23,11 +23,11 @@ header {
   background: #003366;
   color: #fff;
   padding: 1em 0;
-  box-shadow: 0 4px 2px -2px gray;
+  box-shadow: 0 4px 2px -2px rgb(252, 249, 249);
 }
 
 header .logo img {
-  width: 60px;
+  width: 5em;
   height: auto;
   display: inline-block;
 }
@@ -39,7 +39,7 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 nav ul li a {
@@ -57,8 +57,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-   /* http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Content-Style-Type" content="text/css" /><meta name="generator" content="Aspose.Words for .NET 24.9.0" /><title></title><style type="text/css">body { font-family:'Times New Roman'; font-size:12pt }p { margin:0pt }</style></head><body><div><p><img src="images/Aspose.Words.4ee6640d-f77e-4863-8016-a431ae552495.001.png" width="624" height="203" alt="" style="-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline" */
-   background: url('https://sttcipasung.ac.id/wp-content/uploads/2019/05/Poster-STTC-2020@4x1-1200x480.jpg');
+   background-image: url('images/kampus.png');
    background-position: top left;
    background-size: cover;
    height: 50vh;
@@ -67,29 +66,31 @@ nav ul li a:hover {
 .hero h1 {
   font-size: 2.5em;
   margin-bottom: 20px;
+  color: #f4f4f4;
 }
 
 .hero p {
-  font-size: 1.2em;
+  font-size: 2em;
+  color: #f4f4f4;
 }
 
 /* About Section */
 .about, .curriculum, .contact {
-  background-color: white;
-  padding: 50px 0;
-  margin-bottom: 20px;
+  background-color: rgb(136, 4, 114);
+  padding: 0cm 0;
+  margin-bottom: 30em;
   text-align: center;
 }
 
 .about h2, .curriculum h1, .contact h1 {
-  color: #003366;
+  color: #e3e7eb;
   font-size: 2.5em;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .about p, .curriculum p, .contact p {
   font-size: 1.1em;
-  color: #666;
+  color: #f3efef;
   line-height: 1.8;
 }
 
@@ -139,14 +140,14 @@ nav ul li a:hover {
 }
 
 .contact form button:hover {
-  background-color: #bf00ff;
+  background-color: #ddd;
 }
 
 /* Footer */
 footer {
   background-color: #003366;
   color: white;
-  text-align: center;
+  text-align: left ;
   padding: 20px;
 }
 
